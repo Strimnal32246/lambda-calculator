@@ -1,8 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 //import any components needed
-import { operators } from "../path/to/data";
-
-const [operatorState, setOperatorState] = useState(operators);
 
 //Import your array data to from the provided data file
 
@@ -16,3 +13,4 @@ const Operators = () => {
     </div>
   );
 };
+export default Operators;
