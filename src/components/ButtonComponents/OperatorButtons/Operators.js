@@ -1,6 +1,8 @@
-import React from "react";
-
+import React, { useState } from "react";
 //import any components needed
+import { operators } from "../path/to/data";
+
+const [operatorState, setOperatorState] = useState(operators);
 
 //Import your array data to from the provided data file
 
