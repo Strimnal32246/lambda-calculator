@@ -16,7 +16,7 @@ Commit your code regularly and meaningfully. This helps both you and your team l
 
 In this project you will build out a calculator using React. You have been given a design file to follow, and a data file to include for your button components to display.
 
-## Project Set Up
+## Project Set Up   
 
 ---
 
