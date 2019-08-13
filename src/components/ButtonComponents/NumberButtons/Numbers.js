@@ -9,10 +9,17 @@ import NumberButton from "./NumberButton";
 const Numbers = () => {
   // STEP 2 - add the imported data to state
   const [numberState, setNumber] = useState(numbers);
-
+  const numStyle = {
+    display: "flex",
+    flexWrap: "wrap",
+    width: "300px",
+    justifyContent: "space-around",
+    height: "400px",
+    order: "3"
+  };
   console.log(numbers);
   return (
-    <div>
+    <div style={numStyle}>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
