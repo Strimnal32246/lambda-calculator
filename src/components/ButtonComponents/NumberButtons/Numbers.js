@@ -8,11 +8,11 @@ import NumberButton from "./NumberButton";
 
 const Numbers = () => {
   // STEP 2 - add the imported data to state
-  const [numberState, setNumber] = useState(numbers);
+  const [numberState, setNumberState] = useState(numbers);
   const numStyle = {
     display: "flex",
     flexWrap: "wrap",
-    width: "300px",
+    width: "200px",
     justifyContent: "space-around",
     height: "400px",
     order: "3"

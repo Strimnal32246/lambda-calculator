@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 
 // STEP 4 - import the button and display components
@@ -26,8 +26,6 @@ function App() {
     justifyContent: "flex-start",
     flexWrap: "wrap",
     background: "#AF1E39",
-    height: "709px",
-    width: "402px",
     borderRadius: "8px"
   };
 
@@ -35,14 +33,10 @@ function App() {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    background: "black",
-    height: "709px",
-    width: "402px"
+    background: "black"
   };
 
   const buttonWrapperStyle = {
-    height: "500px",
-    width: "100%",
     display: "flex",
     flexDirection: "column",
     flexWrap: "wrap"

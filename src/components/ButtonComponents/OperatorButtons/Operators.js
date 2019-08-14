@@ -6,13 +6,12 @@ import { operators } from "../../../data";
 
 // STEP 2 - add the imported data to state
 const Operators = () => {
-  const [operatorState, setOperators] = useState(operators);
+  const [operatorState, setOperatorsState] = useState(operators);
   const operatorStyle = {
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-around",
     marginBottom: "13px",
-    height: "100%",
     order: "3"
   };
   return (

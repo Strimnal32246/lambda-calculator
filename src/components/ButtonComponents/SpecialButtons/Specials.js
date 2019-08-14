@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 //import any components needed
-import { specials } from "../path/to/data";
+import { specials } from "../../../data";
 import SpecialButton from "./SpecialButton";
 
 //Import your array data to from the provided data file
@@ -9,7 +9,7 @@ import SpecialButton from "./SpecialButton";
 const Specials = () => {
   // STEP 2 - add the imported data to state
 
-  const [specialState, setSpecials] = useState(specials);
+  const [specialState, setSpecialState] = useState(specials);
   const specialStyle = {
     display: "flex",
     justifyContent: "space-around",
